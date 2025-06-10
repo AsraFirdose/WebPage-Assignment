@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <style>
+    *
+    {
+      margin:0px;
+      padding:0px;
+      font-family:Arial;
+      box-sizing: border-box;
+    }
+
+    body
+    {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: small;
+    
+   }
+    #wrapper
+    {
+      width: 100%;
+      min-height: 100px;
+      margin-left: auto;
+      margin-right: auto;
+      background-color: #57e9a5;
+    }
+    #main 
+    {  
+      display: block;  
+      width:100%;
+      min-height: 620px;
+      background-color: #ccc;
+      
+    }
+    
+    .right-div
+    {
+      width: 70%;
+      height: 100vh;
+      float: right;
+    
+      background-color: #ccc;
+    }
+    .left-div
+    {
+      width: 30%;
+      height: 100vh;
+      float: left;
+      background-color: white;
+    }
+    .h3_styling
+    {
+      padding-top: 15px;
+      padding-left: 20px;
+      
+      
+    }
+    .h31_styling
+    {
+      padding-top: 15px;
+      padding-left: 20px;
+    }
+    .p_styling
+    {
+      padding: 20px;
+      margin-top:0px;
+    }
+    .ul1_styling
+    {
+      padding-left: 60px;
+    }
+    .header
+   {
+      background-color: #44ad41;
+      color: #fff;
+      text-align: center;
+      padding: 15px;
+     
+    }
+    .styling_nav
+    {
+      padding-left: 60px;
+      padding-top: 50px;
+    }
+    nav 
+    {   
+	  position: sticky;
+      top: 0
+    }
+
+    .styling_ul
+    {
+      list-style: none;
+      background-color: #000;
+      margin: 0;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      
+    }
+   .styling_li
+   {
+     display: inline;
+     margin-right: 20px;
+    }
+    .styling_a
+   {
+     text-decoration: none;
+     font-weight: bold;
+     color: white;
+    }
+    .container 
+    {
+      width: 100%;
+      margin: 0;
+     padding: 20px;
+    }
+    .form-section 
+    {
+     padding: 20px;
+    }
+    input[type=text],
+    input[type=email],
+    textarea 
+    {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+    input[type=submit]
+    {
+      width: 10%;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      padding-top: 4px;
+      padding-bottom: 4px;     
+      cursor: pointer;
+    }
+   input[type=submit]:hover
+    {
+      background-color: #45a049;
+    }
+    .footer_styling 
+    {
+	clear: both;
+      text-align: center;
+      min-height: 10px;
+      width:100%;
+      line-height: 50px;
+      color: white;
+      background-color: #000;
+     }
+  </style>
+  <body>
+    <div id="wrapper">
+      <div class="header">
+        <h1>XYZ IT Consultancy</h1>
+        <p class="p_styling">Your partner in digital transformation.</p>
+      </div>
+      <nav class="nav">
+        <ul class="styling_ul">
+          <li class="styling_li"><a class="styling_a" href="#" id="home">Home</a></li>
+          <li class="styling_li"><a class="styling_a" href="#" id="About">About</a></li>
+          <li class="styling_li"><a class="styling_a" href="#" id="Services">Services</a></li>
+          <li class="styling_li"><a class="styling_a" href="#" id="contact">Contact</a></li>
+        </ul>
+      </nav>  
+    
+     <div id="main">
+       <div class="left-div">
+        
+          <h3 class="h31_styling">Expertise</h3>
+          <ul class="styling_nav">
+            <li><a href="#" id="artificial intelligence">Artificial Intelligence</a></li>
+            <li><a href="#" id="cybersecurity">cybersecurity</a></li>
+            <li><a href="#" id="data analytics">Data Analytics</a></li>
+          </ul>
+
+        
+       </div>
+      <div class="right-div" class="container">
+        <div>
+          <h3 class="h3_styling">Welcome to XYZ IT Consultancy</h3>
+          <p class="p_styling">
+            We are a dedicated team of IT professionals focused on helping businesses leverage technology
+            for growth. Whether you are looking to optimize your operations with AI, secure your digital
+            assets, or gain insights from data, we are here to guide you through every step of your 
+            digital journey.
+          </p>
+        </div>
+        <div >
+          <h3 class="h3_styling">Who We Are</h3>
+          <p class="p_styling">
+           Founded in 2010, XYZ IT Consultancy has grown from a small startup into a leading consultancy 
+           in the tech industry. Our team consists of highly skilled IT professionals, each with over a 
+           decade of experience in their respective fields.
+          </p>
+        </div>
+        <div>
+          <h3 class="h3_styling">Our Services</h3>
+          <p class="p_styling">Our services are designed to ensure your business thrives in a digital landscape:</p>
+          <ul class="ul1_styling">
+            <li><b>Artificial Intelligence:</b> Automate processes and enhance decision making with custom AI solutions.</li>
+            <li><b>Cybersecurity:</b> Protect your business from cyber threats with our comprehensive security strategies.</li>
+            <li><b>Data Analytics:</b> Turn your data into. </li>
+          </ul>
+        </div>
+        <div class="form-section">
+          <h3>Get In Touch</h3><br>
+          <p>If you have any questions or need further information, please don't hesitate to reach out. We are here to help you make the most out of your technology investments.</p>
+          <form action="#header" method="post">
+           <input type="text" id="name" name="name" placeholder="Your name">      
+           <input type="email" id="email" name="email" placeholder="Your email">
+           <textarea id="message" name="message" placeholder="Your message"></textarea>
+           <input type="submit" value="Send">
+          </form>
+      </div>
+    </div>
+    </div>
+
+    <footer class="footer_styling ">
+      Copyright &copy; 2021 XYZ IT Consultancy. All rights reserved.
+    </footer>
+
+  </body>
+</html>
