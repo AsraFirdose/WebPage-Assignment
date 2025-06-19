@@ -62,4 +62,4 @@ A professional static website for a fictional IT consulting company. This layout
 2. Open each HTML file in a browser:
    - `cafe_delight.html`
    - `mickey_mouse.html`
-   - `xyz_it_consultancy.html` (or whatever name you saved it as)
+   - `xyz_it_consultancy.html` 
